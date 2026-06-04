@@ -1,5 +1,7 @@
 # Breast Cancer Detection
-**Wisconsin Diagnostic Dataset · Support Vector Machines · scikit-learn**
+**Wisconsin Diagnostic Breast Cancer Dataset · Support Vector Machines · scikit-learn**
+
+https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ---
 
@@ -18,6 +20,7 @@ The main goal isn't just to get a high F1 score — it's to understand *why* SVM
 | Linear SVM, no scaling | 2 | 0.872 |
 | Linear SVM, with scaling | 2 | 0.886 |
 | Linear SVM, with scaling | 29 | **0.988** |
+| PolynomialFeatures + LinearSCV | 2 | 0.925 |
 | Polynomial kernel (degree 3) | 29 | 0.976 |
 | RBF kernel, gamma=0.01 | 29 | 0.976 |
 | RBF kernel, gamma=0.1 | 29 | 0.965 |
